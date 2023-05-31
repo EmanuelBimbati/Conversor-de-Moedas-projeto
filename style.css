@@ -43,6 +43,7 @@ select, input {
     font-size: 16px;
     color: #555555;
     cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 }
 
     input[type=number]::-webkit-inner-spin-button,
@@ -104,3 +105,6 @@ font-size: 20px;
 font-weight: 700;
 }
 
+.currency-img, .currency-img-converted{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
